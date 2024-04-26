@@ -28,15 +28,15 @@ Users should be able to:
 
 ### Screenshot
 
-![](./design/Screenshot%202024-04-26%20231314.pngScreenshot 2024-04-26 231314.png.jpg)
+![](https://github.com/Aiakos13/Social-links-profile/blob/main/design/Screenshot%202024-04-26%20231314.png)
 
 
 
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://github.com/Aiakos13/Social-links-profile/tree/main)
-- Live Site URL: [Add live site URL here](social-links-profile-amber.vercel.app
+- Solution URL: [ URL here](https://github.com/Aiakos13/Social-links-profile/tree/main)
+- Live Site URL: [ URL here](social-links-profile-amber.vercel.app
 )
 
 ## My process
