@@ -1,0 +1,125 @@
+:root {
+    --purple: hsl(287, 94%, 57% ) ; 
+    --dark-purple: hsl(287 , 94% , 27% ) ;
+    --grey: hsl(0 , 0% , 12% ) ;
+    --dark-grey: hsl(0, 0%, 19%) ;
+    --off-black: hsl(0 , 0% , 8% ) ;
+}
+
+*,
+*::after ,
+*::before {
+    box-sizing: border-box;
+}
+
+*{
+    margin: 0;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+}
+
+html, body {
+    height: 100%;
+}
+
+body {
+    font: 400 85%/160% "inter" , system-ui , tahoma , sans-serif;
+    background: var(--off-black);
+    color: white;
+    display: grid;
+    place-items: center;
+}
+
+.widthwrapper{
+    max-width: 60rem;
+    /* border: 1px solid red; */
+    padding: 0 2rem;
+}
+
+main {
+    /* border: 1px solid green; */
+    display: grid;
+    gap: 2rem   ;
+    text-align: center;
+    margin: 2rem 0 ;
+}
+
+.usercard{
+    /* border: 1px solid yellow; */
+    background: var(--dark-grey);
+    padding: 2rem;
+    display: grid;
+    gap: 2rem;
+    border-radius: 2rem;
+
+    .profilephoto{
+        max-width: 5rem;
+        margin-inline: auto ;
+    }
+    .profilephoto img {
+        border-radius: 100%;
+    }
+
+    .highlight{
+        display: grid;
+        gap: 0.5rem;
+    }
+    .name{
+        font-size:1,4rem;
+        line-height: 1em;
+        font-weight: 700;
+    }
+
+    .location {
+        font-weight: 700;
+        color: var(--purple);
+    }
+    .sociallinks a {
+        font-weight: 600;
+    }
+    .sociallinks a:hover{
+        color: var(--purple);
+        text-decoration: none;
+    }
+    .sociallinks a:focus{
+        color: var(--purple);
+        text-decoration: none;
+    }
+    .sociallinks{
+        padding: 0;
+        list-style: none;
+        display: grid;
+        gap: 1rem;
+
+    }
+    .sociallinks a {
+        text-decoration: none;
+        background: var(--grey);
+        color: white;
+        display: block;
+        padding: 0.5rem;
+        border-radius: 0.5rem;
+
+    }
+  
+}
+
+.attribution{
+    color: hsl(0 , 0% , 35%);
+}
+
+.attribution a {
+    color: var(--dark-purple);
+}
+
+.attribution a:hover{
+    color: var(--purple);
+    text-decoration: none;
+}
+.attribution a:focus {
+    color: var(--purple);
+    text-decoration: none;
+}
