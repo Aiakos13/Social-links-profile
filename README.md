@@ -36,7 +36,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [ URL here](https://github.com/Aiakos13/Social-links-profile/tree/main)
-- Live Site URL: [ social-links-profile-amber.vercel.ap](social-links-profile-amber.vercel.app
+- Live Site URL: [ social-links-profile-amber.vercel.app](social-links-profile-amber.vercel.app
 )
 
 ## My process
